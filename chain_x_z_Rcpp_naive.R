@@ -8,7 +8,7 @@ source("simdata.R")
 # source("simdata_mvgamma.R")
 
 # number of burn-ins and iterations
-n_rep = 100
+n_rep = 1000
 n_burn = 5000
 n_iter = 5000
 n_length = n_burn + n_iter
