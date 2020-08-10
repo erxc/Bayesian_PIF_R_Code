@@ -11,7 +11,7 @@ source("simdata_biased_sample.R")
 sourceCpp("sample_X.cpp")
 
 # number of burn-ins and iterations
-n_rep = 100
+n_rep = 1000
 n_burn = 5000
 n_iter = 5000
 n_length = n_burn + n_iter
