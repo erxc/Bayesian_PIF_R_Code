@@ -1,6 +1,6 @@
 # Bayesian PIF R Code
 
-R code in this folder is for replicating simulation results in the Bayesian PIF estimation paper. 
+R code in this folder is for replicating simulation results in the Bayesian PIF estimation paper. The exposure-outcome relationship is assumed to be a logistic regression, with default prevalence being -2 or -4. The reclassification process is assumed to follow a multivariate normal model. For different simulation scenarios mentioned in the paper, the default prevalence need to be changed in both the data generating file and the main file. The reclassification process parameters can be altered in the data generation file in order to achieve different levels of measurement errors.
 
 ## For the proposed estimation method:
 
